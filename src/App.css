@@ -1,10 +1,19 @@
 * {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: thin;  /* IE and Edge */
+    scrollbar-width: thin;  /* Firefox */
+    scrollbar-color: rgba(255, 255, 255, 0.5) transparent;
 }
 
 ::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+    width: 9px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(155, 155, 155, 0.5);
+    border-radius: 20px;
+    border: transparent;
 }
 
 body {
@@ -19,4 +28,38 @@ h1 {
 
 h2 {
     font-size: 200%;
+}
+
+.main-section{
+    padding-top: 5rem;
+}
+.main-section-title {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    width: 30%;
+    padding-left: 10rem;
+    font-size: 175%;
+}
+.section-title{
+    border: 1px solid rgb(252, 252, 252);
+    margin: -.0001rem;
+    padding: 2rem;
+    text-align: center;
+    width: 30%;
+}
+
+.section-full{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.section-element{
+    display: inline-block;
+    border: 1px solid rgb(0, 255, 115);
+    padding: 5rem 5rem;
+    margin: -1rem;
+    vertical-align: middle;
 }

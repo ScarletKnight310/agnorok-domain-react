@@ -3,7 +3,7 @@ import './header.css'
 
 function Header() {
   return (
-    <header class="bg-image" id="home"> 
+    <header class="bg-img" id="home">
     </header>
   )
 }

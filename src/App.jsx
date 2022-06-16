@@ -9,13 +9,50 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
     <>
-      <Navbar/>
-      <Header/>
-      <About/>
-      <Projects/>
-      <Footer/>
+      <Home />
     </>
   );
 }
 
+function Home() {
+  return (
+    <>
+    <Navbar/>
+    <Header/>
+    <About/>
+    <Projects/>
+    <Footer/>
+    </>
+  )
+}
+
+function CodingProjects() {
+  return (
+    <>
+    <Navbar/>
+    
+    <Footer/>
+    </>
+  )
+}
+
+function ArtProjects() {
+  return (
+    <>
+    <Navbar/>
+    
+    <Footer/>
+    </>
+  )
+}
+
+function TdPrintProjects() {
+  return (
+    <>
+    <Navbar/>
+    
+    <Footer/>
+    </>
+  )
+}
 export default App;

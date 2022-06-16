@@ -1,0 +1,20 @@
+#about{
+    padding-top: 3rem;
+}
+#sb-about{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    padding-bottom: 25rem;
+}
+
+#sb-about-img{
+    border: 1px solid rgb(251, 255, 0);
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+#sb-about-text{
+    border: 3px solid;
+}

@@ -1,10 +1,13 @@
+a {
+    text-decoration: none;
+}
+
 .site-navbar {
     background-color: black;
     box-sizing: border-box;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     width: 100%;
-    overflow: hidden;
     top: 0;
     display: flex;
     justify-content: space-between;
@@ -30,6 +33,53 @@
 }
 
 /**/
+ul {
+    background: black;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}  
+li {
+    color: #fff;
+    background: black;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+    
+li a {
+    color: #f2f2f2;
+}  
+li:hover {
+    background: #cecece;
+    color: black;
+    cursor: pointer;
+} 
+ul li ul {
+    background: black;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+} 
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+} 
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
 .navbar-links {
     float:right;
 }
