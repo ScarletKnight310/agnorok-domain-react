@@ -1,25 +1,26 @@
 # Preview Update v0.5
 implemented React Router for seamless page switching, this is how the barebones pages look like:
-<iframe src="https://drive.google.com/uc?export=view&id=1hSEjP96rQsXCZKeudpOZex_7eWF2HuOv/preview" width="640" height="480" allow="autoplay"></iframe>
+![p5](img-preview/preview6.png)
 
-![p6](https://drive.google.com/uc?export=view&id=1_MpWgqGZVVNeZBcON8Tpz1jCodo1XMJ5/)
+![p6](img-preview/preview6.png)
 
-![p7](https://drive.google.com/uc?export=view&id=1rGv41ZhZnO789DlZsMMOmk8pj8aD6phS/)
+![p7](img-preview/preview7.png)
 
 pretty barren now, but it's a start
 
 / also made the dropdown on the navbar easier for users to see (theres an arrow for down :0)
-![p4](https://drive.google.com/uc?export=view&id=1rpSi9Ut0yCJyZcvVWUGLEkkJZ0kkkOz1/)
+![p4](img-preview/preview4.png)
 
 # Preview - Update v0.3
 Updated Navbar with dropdown action
-![p3](https://drive.google.com/uc?export=view&id=1x7rSQpt9Przi2ecItR951qD_HApvoQM4/)
+![p3](img-preview/preview3.png)
 
-![p2](https://drive.google.com/uc?export=view&id=1LImo6gJomnZ-MR2IlEyMIH6IXT4wzkOH/)
+![p2](img-preview/preview2.png)
 
 Sample of the overall website style and feel, all sections have a similar feel
-![p1](https://drive.google.com/uc?export=view&id=13mfX8CkyXLGIOJAW-63isytRrc1YZZaW/)
+![p1](img-preview/preview1.png)
 
 # Preview - Update v0.1
 Navbar and image header, still working on the rest of the page
-![p](https://drive.google.com/uc?export=view&id=1gzG-P9CE93Tx18dy56T99I0K14US6GCD/)
+![p](img-preview/preview.png)
+
