@@ -1,6 +1,6 @@
 # Preview Update v0.5
 implemented React Router for seamless page switching, this is how the barebones pages look like:
-![p5](img-preview/preview6.png)
+![p5](img-preview/preview5.png)
 
 ![p6](img-preview/preview6.png)
 
