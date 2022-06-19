@@ -1,6 +1,6 @@
 # Preview Update v0.5
 implemented React Router for seamless page switching, this is how the barebones pages look like:
-<iframe src="https://drive.google.com/file/d/1hSEjP96rQsXCZKeudpOZex_7eWF2HuOv/preview"></iframe>
+<iframe src="https://drive.google.com/file/d/1hSEjP96rQsXCZKeudpOZex_7eWF2HuOv/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ![p6](https://drive.google.com/uc?export=view&id=1_MpWgqGZVVNeZBcON8Tpz1jCodo1XMJ5/)
 
