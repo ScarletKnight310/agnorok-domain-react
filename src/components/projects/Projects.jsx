@@ -1,5 +1,6 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
+import '../../App.jsx';
 import './projects.css'
 
 import code from "../../assets/projects/code.jpg";
@@ -19,7 +20,6 @@ const Projects = () => {
       will be on my GitHub or my itch.io account. Otherwise, they'll be here.
       </article>
     </section>
-
     <section class="section-full" id="art-projects">
       <h3 class="section-title" id="art-projects-title">[Digital Art Projects]</h3>
       <img class="section-element" id="art-projects-img" src= {art} alt="artProj" height="500"></img>

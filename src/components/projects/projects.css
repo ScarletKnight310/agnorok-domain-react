@@ -1,3 +1,7 @@
+.section-full{
+    padding-top: 5rem;
+}
+
 #code-projects-img{
     border: 1px solid rgb(0, 174, 255);
     max-width: 500px;
