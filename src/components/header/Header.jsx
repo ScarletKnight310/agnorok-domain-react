@@ -3,8 +3,10 @@ import './header.css'
 
 function Header() {
   return (
+    <>
     <header class="bg-img" id="home">
     </header>
+    </>
   )
 }
 
