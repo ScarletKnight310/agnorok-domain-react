@@ -1,6 +1,6 @@
-# Preview Update v0.5
+# Preview Update v0.6
 Started adding content to the project pages, plan to add more detail to each of my displayed github repos (similar to this) so they can be used as standalone project pages.
-The header for each feels a bit empty, a mini desc. for each of the sections
+The header for each feels a bit empty, may add a mini desc. for each of the sections
 - Plan to add more styling to each of the Tile cards
 - Debating on making extra pages for displaying art content and 3D print images
 - Debugging/Test phase is almost here
