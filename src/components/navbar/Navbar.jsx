@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import '../../App.jsx';
 import './navbar.css';
 
@@ -11,19 +12,19 @@ function Navbar() {
   return (
     <nav class="site-navbar">
       <div class="logo" id="navbar-logo"> 
-        <Link to="/">
+        <HashLink smooth to='/#home'>
           <img class="logo-img"src={logo} alt="logo" height="40"></img>
           <label for="logo-img" class="logo-label">Agnorok Domain</label>
-        </Link>
+        </HashLink>
       </div>
       <ul class="navbar-links">
-        <li class="navbar-element"><Link to="/">Home</Link></li>
-        <li class="navbar-element"><a href="#about">About</a></li>
-        <li class="navbar-element" id="nav-projects-drop"><a href="#projects">Projects <MdOutlineKeyboardArrowDown/></a>
+        <li class="navbar-element"><HashLink smooth to='/#home'>Home</HashLink></li>
+        <li class="navbar-element"><HashLink smooth to='/#about'>About</HashLink></li>
+        <li class="navbar-element" id="nav-projects-drop"><HashLink smooth to='/#projects'>Projects<MdOutlineKeyboardArrowDown/></HashLink>
           <ul class="dropdown-menu">
-            <li class="dropdown-element"><Link to="/code">Coding Projects</Link></li>
-            <li class="dropdown-element"><Link to="/art">Art Projects</Link></li>
-            <li class="dropdown-element"><Link to="/thrD">3D Printing and Modeling Projects</Link></li>
+            <li class="dropdown-element"><HashLink smooth to='/code/#'>Coding Projects</HashLink></li>
+            <li class="dropdown-element"><HashLink smooth to='/art/#'>Art Projects</HashLink></li>
+            <li class="dropdown-element"><HashLink smooth to='/thrD/#'>3D Printing and Modeling Projects</HashLink></li>
           </ul>
         </li>
         <li class="navbar-element"><a href="https://github.com/ScarletKnight310/Cagnolatti-Resume-Current/blob/main/src/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>

@@ -5,7 +5,7 @@ import Tile from "./Tile";
 function TdPrintProjects() {
     return (
     <>
-        <h1 class="page-header">&nbsp;[3D Printing + Modeling Projects]</h1>
+        <h1 class="page-header" id="thrD-page-header">&nbsp;[3D Printing + Modeling Projects]</h1>
         <table class="project-tiles" id="art-proj-tiles">
             <tr>
                 <th><Tile

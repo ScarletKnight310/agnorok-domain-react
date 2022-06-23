@@ -5,7 +5,7 @@ import Tile from "./Tile";
 function CodingProjects() {
     return (
     <>
-        <h1 class="page-header">&nbsp;[Coding Projects]</h1>
+        <h1 class="page-header" id="code-page-header">&nbsp;[Coding Projects]</h1>
         <table class="project-tiles" id="code-proj-tiles">
             <tr>
                 <th><Tile
