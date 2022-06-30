@@ -1,11 +1,12 @@
 import React from 'react'
-// import {Link} from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+import { BiLinkExternal } from "react-icons/bi";
 import '../../App.jsx';
 import './projects.css'
 
 import code from "../../assets/projects/code.jpg";
 import art from "../../assets/projects/art.png";
-import print from "../../assets/projects/print.jpg";
+import print from "../../assets/projects/print.png";
 import {FaRegSadCry} from 'react-icons/fa'
 
 const Projects = () => {
@@ -15,10 +16,11 @@ const Projects = () => {
     <section class="section-full" id="code-projects">
       <h3 class="section-title" id="code-projects-title">[Coding Projects]</h3>
       <img class="section-element" id="code-projects-img" src= {code} alt="codeProj" height="500"></img>
-      <article class="section-element"id="code-projects-text"> If it involves me coding, it goes here. Content varies between <br/> 
-      Unity games, Arduino Code, and more.  Most of my projects <br/>
-      will be on my GitHub or my itch.io account. Otherwise, they'll be here.
+      <article class="section-element"id="code-projects-text"> If it involves me coding, it goes here.<br/>  Content varies between 
+      Unity games, Arduino Code, and more.<br/>  Most of my projects 
+      can be found on <a class="in-text" href="https://github.com/ScarletKnight310" target="_blank" rel="noopener noreferrer">GitHub</a> or <a class="in-text" href="https://scarletknight310.itch.io/" target="_blank" rel="noopener noreferrer">Itch.io</a>.
       </article>
+      <HashLink smooth to='/code/#' class="project-button" >View Code Projects<BiLinkExternal/></HashLink>
     </section>
     <section class="section-full" id="art-projects">
       <h3 class="section-title" id="art-projects-title">[Digital Art Projects]</h3>
@@ -28,6 +30,7 @@ const Projects = () => {
       and Illustrator. May add to this every so often so my Adobe skills <br/>
       don't get rusty.
       </article>
+      <HashLink smooth to='/art/#' class="project-button" >View Art Projects<BiLinkExternal/></HashLink>
     </section>
 
     <section class="section-full" id="tdpm-projects">
@@ -40,10 +43,13 @@ const Projects = () => {
       I use an Ender-3 for printing, but I plan to upgrade soon. <br/>
       <br/>
       <br/>
-      Currently my 3D Printer is out of commission, <br/>
-      won't be seeing new prints for a while <FaRegSadCry/>
+        <div id ="tdpm-notes">
+          Currently my 3D Printer is out of commission, <br/>
+          won't be seeing new prints for a while <FaRegSadCry/>
+        </div>
       </article>
     </section>
+    <HashLink smooth to='/thrD/#' class="project-button">View 3D Projects<BiLinkExternal/></HashLink>
     </projects>
   )
 }

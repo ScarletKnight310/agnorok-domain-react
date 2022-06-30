@@ -1,8 +1,7 @@
 import React from 'react';
 import './about.css';
 
-import me from "../../assets/about/me.jpg";
-//import helm from "../../assets/about/helm.jpg";
+import me from "../../assets/about/helm.jpg";
 
 function About() {
   return (
@@ -11,11 +10,17 @@ function About() {
       <section class="section-full" id="sb-about">
         <img class="section-element" id="sb-about-img" src= {me}  height="500" alt="me"></img>
         <article class="section-element" id="sb-about-text">
-          My name is Kashod Cagnolatti. <br/>
+          <div id="about-element-header">
+            Hello! I'm <br/>
+            <div id="about-element-header-name">
+              Kashod Cagnolatti
+            </div>
+            ~
+          </div>
           <br/>
-          I'm a recent graduate of California Lutheran University <br/>
-          currently looking for career in the field of Computer Science. <br/>
-          I made this site as a way to keep a record of things I've worked on.
+            I'm a recent graduate of California Lutheran University<br/>
+                looking for a place to share and hone my talents<br/>
+                      in the field of computer science. 
         </article>
       </section>
     </about>

@@ -5,9 +5,9 @@ import Navbar from './components/navbar/Navbar';
 import Header from './components/header/Header';
 import About from './components/about/About';
 import Projects from './components/projects/Projects';
-import CodingProjects from './components/projects/CodingProjects';
-import ArtProjects from './components/projects/ArtProjects';
-import TdPrintProjects from './components/projects/TdPrintProjects';
+import CodingProjects from './components/projects/pages/CodingProjects';
+import ArtProjects from './components/projects/pages/ArtProjects';
+import TdPrintProjects from './components/projects/pages/TdPrintProjects';
 
 import Footer from './components/footer/Footer';
 

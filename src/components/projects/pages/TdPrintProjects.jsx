@@ -1,6 +1,6 @@
 import React from 'react'
 import './projPage.css'
-import Tile from "./Tile";
+import Tile from "../Tile";
 
 function TdPrintProjects() {
     return (

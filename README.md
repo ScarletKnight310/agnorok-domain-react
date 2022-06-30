@@ -1,3 +1,20 @@
+# Preview Update v0.7
+Adding final details to page contents and Debugging/Testing site on different browsers and resolutions
+- Added a button directing to project pages from Home/ Also added a bit of flair to the text
+![p11](img-preview/preview11.png)
+
+![p12](img-preview/preview12.png)
+
+![p13](img-preview/preview13.png)
+
+
+Next
+- Cleaning Code 
+- Plan to add more styling to each of the Tile cards
+- Debating on making extra pages for displaying art content and 3D print images
+- Update Navbar for mobile devices
+- More Testing and Debugging
+____________________________________________________________________________________________________
 # Preview Update v0.6
 Started adding content to the project pages, plan to add more detail to each of my displayed github repos (similar to this) so they can be used as standalone project pages.
 The header for each feels a bit empty, may add a mini desc. for each of the sections

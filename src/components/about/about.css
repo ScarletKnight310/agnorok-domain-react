@@ -18,3 +18,10 @@
 #sb-about-text{
     border: 3px solid;
 }
+
+#about-element-header{
+    font-size: xx-large;
+}
+#about-element-header-name{
+    color: rgb(251, 255, 0);;
+}

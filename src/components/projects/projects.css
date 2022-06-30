@@ -1,7 +1,25 @@
 .section-full{
-    padding-top: 5rem;
+    padding-top: 2rem;
+}
+.in-text{
+    padding: 0rem;
+    color: rgb(0, 174, 255);
+    display: inline;
 }
 
+.project-button{
+    display: block;
+    text-align: center;
+    margin-left: 50rem;
+    margin-top: -2rem;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    color: rgb(0, 102, 255);
+}
+
+#code-projects{
+    padding-top: 1rem;
+}
 #code-projects-img{
     border: 1px solid rgb(0, 174, 255);
     max-width: 500px;
@@ -12,7 +30,6 @@
     border: 3px solid;
     padding-top: 10;
 }
-
 
 #art-projects-img{
     max-width: 500px;
@@ -35,4 +52,7 @@
 #tdpm-projects-text{
     border: 3px solid;
     padding-top: 10;
+}
+#tdpm-notes{
+    color: rgb(255, 0, 221);;
 }
