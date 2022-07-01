@@ -6,7 +6,7 @@ function CodingProjects() {
     return (
     <>
         <h1 class="page-header" id="code-page-header">&nbsp;[Coding Projects]</h1>
-        <p class="page-header-desc">&nbsp;&nbsp;&nbsp;If it involves me coding, it goes here. Content varies between 
+        <p class="page-header-desc">If it involves me coding, it goes here. Content varies between 
             Unity games, Arduino Code, and more. Most of my projects 
             can be found on <a class="in-text" href="https://github.com/ScarletKnight310" target="_blank" rel="noopener noreferrer">GitHub</a> or my <a class="in-text" href="https://scarletknight310.itch.io/" target="_blank" rel="noopener noreferrer">itch.io</a> account.</p>
         <table class="project-tiles" id="code-proj-tiles">
@@ -66,6 +66,13 @@ function CodingProjects() {
                     on the web and through other wireless features. It's super simple and shouldn't be used to encrypt stuff for privacy, 
                     but it works!"
                     link="https://github.com/ScarletKnight310/Simple-Encryption"
+                /></th>
+                <th><Tile 
+                    title="JS Drawing App"
+                    imgPath="https://drive.google.com/file/d/1A6zwYKedykzvpYfo6e1zY_8Vqs4Gre_1/preview"
+                    desc="A basic drawing app based on Shuvo's Code, with some added functionality. Made to practice my CSS, HTML, and JavaScript. 
+                    Plan to add more when I can. More info can be found on the repository"
+                    link="https://github.com/ScarletKnight310/JS-DrawingApp"
                 /></th>
             </tr>
         </table>

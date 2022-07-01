@@ -27,7 +27,7 @@ function Navbar() {
             <li class="dropdown-element"><HashLink smooth to='/thrD/#'>3D Printing and Modeling Projects</HashLink></li>
           </ul>
         </li>
-        <li class="navbar-element"><a href="https://github.com/ScarletKnight310/Cagnolatti-Resume-Current/blob/main/src/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+        <li class="navbar-element"><a href="https://github.com/ScarletKnight310/Cagnolatti-Resume-Current/blob/main/src/Cagnolatti_Resume_2022.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
         <li class="navbar-element"><a href="https://github.com/ScarletKnight310" target="_blank" rel="noopener noreferrer"><FaGithub /></a></li>
         <li class="navbar-element"><a href="https://www.linkedin.com/in/agnorok-domain" target="_blank" rel="noopener noreferrer"><AiOutlineLinkedin /></a></li>
         <li class="navbar-element"><a href="mailto:kcagnolatti@callutheran.edu" target="_blank" rel="noopener noreferrer"><AiOutlineMail /></a></li>
