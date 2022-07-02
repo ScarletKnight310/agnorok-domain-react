@@ -87,3 +87,42 @@ ul li ul li {
     color: black;
 }
 
+.navbar-mobile-button{
+    display:none;
+}
+
+@media screen and (max-width: 780px){
+    .navbar-mobile-button{
+        color: white;
+        background-color: black;
+        border: transparent;
+        font-size: xx-large;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .navbar-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: rgb(31, 31, 31);
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+    .navbar-element{
+        text-align: center;
+        padding: 1% 0%;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+    .navbar-mobile-button{
+        display: block;
+        position: block;
+        text-align: left;
+    }
+    ul li ul li {
+        display: none;
+    }
+}

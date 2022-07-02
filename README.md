@@ -1,3 +1,41 @@
+# Preview Update v0.8
+Updated Navbar for mobile devices
+Adding some more details to page contents and Debugging/Testing site on different browsers and resolutions
+Here's what it looks like:
+
+Mobile View
+![p11](img-preview/preview15.png)
+
+
+![p12](img-preview/preview16.png)
+
+Regular View
+![p13](img-preview/preview14.png)
+
+
+Next
+- Cleaning Code 
+- Still debating on making extra pages for displaying art content and 3D print images
+- More Testing and Debugging
+____________________________________________________________________________________________________
+# Preview Update v0.7
+Adding final details to page contents and Debugging/Testing site on different browsers and resolutions
+- Added a button directing to project pages from Home/ Also added a bit of flair to the text
+![p11](img-preview/preview11.png)
+
+![p12](img-preview/preview12.png)
+
+![p13](img-preview/preview13.png)
+
+
+Next
+- Cleaning Code 
+- Plan to add more styling to each of the Tile cards
+- Debating on making extra pages for displaying art content and 3D print images
+- Update Navbar for mobile devices
+- More Testing and Debugging
+____________________________________________________________________________________________________
+# Preview Update v0.6
 # Preview Update v0.7
 Adding final details to page contents and Debugging/Testing site on different browsers and resolutions
 - Added a button directing to project pages from Home/ Also added a bit of flair to the text
