@@ -2,13 +2,13 @@ import React from 'react';
 import './about.css';
 
 import me from "../../assets/about/helm.jpg";
-
+//  height="500"
 function About() {
   return (
     <about class="main-section" id="about">
       <h2 class="main-section-title">&lt;[About]&gt;</h2>
       <section class="section-full" id="sb-about">
-        <img class="section-element" id="sb-about-img" src= {me}  height="500" alt="me"></img>
+        <img class="section-element" id="sb-about-img" src= {me} alt="me"></img>
         <article class="section-element" id="sb-about-text">
           <div id="about-element-header">
             Hello! I'm <br/>

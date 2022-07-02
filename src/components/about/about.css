@@ -12,7 +12,7 @@
 #sb-about-img{
     border: 1px solid rgb(251, 255, 0);
     max-width: 500px;
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 #sb-about-text{
@@ -25,3 +25,4 @@
 #about-element-header-name{
     color: rgb(251, 255, 0);;
 }
+

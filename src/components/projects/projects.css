@@ -7,13 +7,18 @@
     display: inline;
 }
 
+.header-link{
+    color: white;
+}
+
 .project-button{
     display: block;
     text-align: center;
-    margin-left: 50rem;
-    margin-top: -2rem;
+    margin-left: 55%;
+    margin-top: -4%;
     background-color: rgb(255, 255, 255);
     width: 20%;
+    min-width: 200px;
     color: rgb(0, 102, 255);
 }
 
@@ -23,7 +28,7 @@
 #code-projects-img{
     border: 1px solid rgb(0, 174, 255);
     max-width: 500px;
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 #code-projects-text{
@@ -33,7 +38,7 @@
 
 #art-projects-img{
     max-width: 500px;
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
@@ -46,7 +51,7 @@
 #tdpm-projects-img{
     border: 1px solid rgb(255, 0, 221);
     max-width: 500px;
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 #tdpm-projects-text{

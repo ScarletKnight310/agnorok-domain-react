@@ -91,7 +91,7 @@ ul li ul li {
     display:none;
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 600px){
     .navbar-mobile-button{
         color: white;
         background-color: black;

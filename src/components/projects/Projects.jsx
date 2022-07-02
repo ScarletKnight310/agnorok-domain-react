@@ -14,7 +14,7 @@ const Projects = () => {
     <projects class="main-section" id="projects">
     <h2 class="main-section-title">&lt;[Projects]&gt;</h2>
     <section class="section-full" id="code-projects">
-      <h3 class="section-title" id="code-projects-title">[Coding Projects]</h3>
+      <h3 class="section-title" id="code-projects-title"><HashLink smooth to='/code/#' class="header-link" >[Coding Projects]</HashLink></h3>
       <img class="section-element" id="code-projects-img" src= {code} alt="codeProj" height="500"></img>
       <article class="section-element"id="code-projects-text"> If it involves me coding, it goes here.<br/>  Content varies between 
       Unity games, Arduino Code, and more.<br/>  Most of my projects 
@@ -23,8 +23,8 @@ const Projects = () => {
       <HashLink smooth to='/code/#' class="project-button" >View Code Projects<BiLinkExternal/></HashLink>
     </section>
     <section class="section-full" id="art-projects">
-      <h3 class="section-title" id="art-projects-title">[Digital Art Projects]</h3>
-      <img class="section-element" id="art-projects-img" src= {art} alt="artProj" height="500"></img>
+      <h3 class="section-title" id="art-projects-title"><HashLink smooth to='/art/#' class="header-link" >[Digital Art Projects]</HashLink></h3>
+      <img class="section-element" id="art-projects-img" src= {art} alt="artProj" ></img>
       <article class="section-element" id="art-projects-text"> 
       Anything involving creating 2D images, mostly Adobe Photoshop <br/>
       and Illustrator. May add to this every so often so my Adobe skills <br/>
@@ -34,7 +34,7 @@ const Projects = () => {
     </section>
 
     <section class="section-full" id="tdpm-projects">
-      <h3 class="section-title" id="tdpm-projects-title">[3D Printing and Modeling Projects]</h3>
+      <h3 class="section-title" id="tdpm-projects-title"><HashLink smooth to='/thrD/#' class="header-link">[3D Printing and Modeling Projects]</HashLink></h3>
       <img class="section-element" id="tdpm-projects-img" src= {print} alt="3DprintProj" height="500"></img>
       <article class="section-element" id="tdpm-projects-text">
       Anything involving creating 3D images,<br/> 

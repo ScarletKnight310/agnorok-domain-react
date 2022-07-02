@@ -8,7 +8,7 @@ function ArtProjects() {
         <h1 class="page-header" id="art-page-header">&nbsp;[Art Projects]</h1>
         <p class="page-header-desc">Anything involving creating 2D images, mostly Adobe Photoshop
             and Illustrator. May add to this every so often so my Adobe skills
-            don't get rusty.</p>
+            don't get rusty.</p>  
         <table class="project-tiles" id="art-proj-tiles">
             <tr>
                 <th><Tile
