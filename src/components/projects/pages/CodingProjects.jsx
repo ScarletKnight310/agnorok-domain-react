@@ -79,6 +79,13 @@ function CodingProjects() {
                     Plan to add more when I can. More info can be found on the repository"
                     link="https://github.com/ScarletKnight310/JS-DrawingApp"
                 /></th>
+                <th><Tile
+                    title="Agnorok Domain React"
+                    imgPath="https://drive.google.com/file/d/1hk6oNdwbH-9oHp2XBREMq367bYfv7BYc/preview"
+                    desc="Built with HTML, CSS, JavaScript, and the React library. I'm currently remaking my portfolio website with React. 
+                    Yes, you are currently using the mentioned website. LINK LOOP INBOUND!"
+                    link="https://github.com/ScarletKnight310/agnorok-domain-react"
+                /></th>
             </tr>
         </table>
     </div>

@@ -1,3 +1,4 @@
+Won't be adding to readMe after v1.0 unless it's a drastic change to the site. Any other updates can be viewed in the commit history, THANK YOU!!!
 # Preview Update v1.0 - THE SITE IS UP!!!
 The site is now deployed!!! Reused my old domain so any links should still be functional.
 - Updated homepage image from .svg to .png, first image shouldn't take decades to load now
