@@ -1,12 +1,11 @@
 .home-bg-img {
-    background-image: url("../../assets/space.svg");
-    min-height: 100%;
-
+    height: auto;
+    width: 100%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    padding-top: 30%;
-    padding-bottom: 31%;
+    /*padding-top: 30%;
+    padding-bottom: 31%;*/
 }

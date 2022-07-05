@@ -1,3 +1,8 @@
 .footer-tag{
     text-align: center;
 }
+.footer-link{
+    padding: 0rem;
+    color: rgb(255, 0, 0);
+    display: inline;
+}
