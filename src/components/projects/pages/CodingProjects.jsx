@@ -1,14 +1,19 @@
 import React from 'react'
 import './projPage.css'
+
+// Components
 import Tile from "../Tile";
 
 function CodingProjects() {
     return (
-    <>
+    <div class="project-page" id="code-project-page">
         <h1 class="page-header" id="code-page-header">&nbsp;[Coding Projects]</h1>
-        <p class="page-header-desc">If it involves me coding, it goes here. Content varies between 
+        <p class="page-header-desc">
+            If it involves me coding, it goes here. Content varies between 
             Unity games, Arduino Code, and more. Most of my projects 
-            can be found on <a class="in-text" href="https://github.com/ScarletKnight310" target="_blank" rel="noopener noreferrer">GitHub</a> or my <a class="in-text" href="https://scarletknight310.itch.io/" target="_blank" rel="noopener noreferrer">itch.io</a> account.</p>
+            can be found on <a class="in-text" href="https://github.com/ScarletKnight310" target="_blank" rel="noopener noreferrer">GitHub</a> or my <a class="in-text" href="https://scarletknight310.itch.io/" target="_blank" rel="noopener noreferrer">itch.io</a> account.
+        </p>
+        
         <table class="project-tiles" id="code-proj-tiles">
             <tr>
                 <th><Tile
@@ -76,8 +81,8 @@ function CodingProjects() {
                 /></th>
             </tr>
         </table>
-    </>
-    )
+    </div>
+    );
 }
 
 export default CodingProjects

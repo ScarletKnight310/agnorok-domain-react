@@ -1,8 +1,9 @@
 import React from 'react';
 import './about.css';
 
+// Images
 import me from "../../assets/about/helm.jpg";
-//  height="500"
+
 function About() {
   return (
     <about class="main-section" id="about">
@@ -19,12 +20,11 @@ function About() {
           </div>
           <br/>
             I'm a recent graduate of California Lutheran University<br/>
-                looking for a place to share and hone my talents<br/>
-                      in the field of computer science. 
+                looking for a place to share and hone my talents. 
         </article>
       </section>
     </about>
-  )
+  );
 }
 
 export default About

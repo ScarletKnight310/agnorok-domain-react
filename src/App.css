@@ -4,6 +4,7 @@
     scrollbar-color: rgba(255, 255, 255, 0.5) transparent;
 }
 
+/* scrollbar chnages */
 ::-webkit-scrollbar {
     width: 9px;
 }
@@ -16,20 +17,21 @@
     border: transparent;
 }
 
+/* Minor app structure changes */
+h1 {
+    font-size: 500%;
+}
+h2 {
+    font-size: 200%;
+}
+
 body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    font-size: 500%;
-}
-
-h2 {
-    font-size: 200%;
-}
-
+/* for projects overview on home page */
 .main-section{
     padding-top: 5rem;
 }
@@ -63,7 +65,8 @@ h2 {
     vertical-align: middle;
 }
 
-@media only screen and (max-width: 600px) {
+/* Mobile Config */
+@media only screen and (max-width: 755px) {
     .section-title{
         min-width: 75%;
     }

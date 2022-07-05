@@ -1,3 +1,4 @@
+/* General */
 a {
     text-decoration: none;
     display: block;
@@ -17,7 +18,7 @@ a {
     align-items: center;
 }
 
-/**/
+/* Logo Elements (Left-Side) */
 .navbar-logo{
     display: block;
     float: left;
@@ -35,7 +36,7 @@ a {
     text-decoration: none;
 }
 
-/**/
+/* Main Navbar Config */
 ul {
     background: black;
     list-style: none;
@@ -50,7 +51,7 @@ li {
     text-decoration: none;
     transition-duration: 0.5s;
 }
-    
+
 li a {
     color: #f2f2f2;
     display: block
@@ -91,7 +92,8 @@ ul li ul li {
     display:none;
 }
 
-@media screen and (max-width: 600px){
+/* Mobile Config */
+@media screen and (max-width: 755px){
     .navbar-mobile-button{
         color: white;
         background-color: black;

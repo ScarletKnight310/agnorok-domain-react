@@ -15,8 +15,9 @@
 .tile-button{
     display: block;
     background-color: rgb(255, 255, 255);
-    width: 50%;
+    width: 15rem;
     color: rgb(0, 102, 255);
     margin-left: auto;
     margin-right: auto;
+    border-radius: 0.2rem;
 }
