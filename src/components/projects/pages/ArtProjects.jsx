@@ -17,20 +17,10 @@ function ArtProjects() {
         <table class="project-tiles" id="art-proj-tiles">
             <tr>
                 <th><Tile
-                    title="Company Logo Project"
-                    imgPath="https://drive.google.com/file/d/1xYGJa2CYhOpoWex81EoY6ctRE0zFka4K/preview"
-                    link="https://drive.google.com/drive/u/1/folders/14lrcwUqs3PYp2awM7MikX_UWeGvG3YCe"
-                    desc="Real Logo, Imaginary Company"
-                />
-                </th>
-                <th><Tile
-                    title="Mandalorian Revamp Project"
-                    imgPath="https://drive.google.com/file/d/1GIAdraIHtBEFXPyjgf-P55Dp-z96zW8Q/preview"
-                    link="https://drive.google.com/drive/u/1/folders/1iPf_23y77iNJ4GCJK4GqSvGgugq6LObf"
-                    desc="Finished painting my Mandalorian helmet. Decided to do some art to refresh myself in Adobe Illustrator. 
-                    I bought the lightsaber from Ultra Sabers and the Mando Helmet from Etsy, 
-                    sadly the person I got it from doesn't seem to be selling anymore :("
-                />
+                    title="Blank Stare"
+                    imgPath="https://drive.google.com/file/d/1FogoAMP_YYN9OC0zqkKAgJIKzZqcAhjG/preview"
+                    link="https://drive.google.com/drive/folders/1Xo8Vr1O468dKczEg0Ji3BdSRhsa6QsdS?usp=sharing"
+                    desc="Wanted to brush up on my Illustrator skills, source image is Naota Nandaba from FLCL"/>
                 </th>
                 <th><Tile
                     title="Paint Reality Project"
@@ -38,10 +28,23 @@ function ArtProjects() {
                     link="https://drive.google.com/drive/u/1/folders/1Lh6M4kmNsd1gAx05wVSpyA7S13GkEWLb"
                     desc="For a class I attempted to paint a bridge on my campus. Could have been better, 
                     but a cool experience nonetheless."
-                />
-                </th>
+                /></th>
+                <th><Tile
+                    title="Mandalorian Revamp Project"
+                    imgPath="https://drive.google.com/file/d/1GIAdraIHtBEFXPyjgf-P55Dp-z96zW8Q/preview"
+                    link="https://drive.google.com/drive/u/1/folders/1iPf_23y77iNJ4GCJK4GqSvGgugq6LObf"
+                    desc="Finished painting my Mandalorian helmet. Decided to do some art to refresh myself in Adobe Illustrator. 
+                    I bought the lightsaber from Ultra Sabers and the Mando Helmet from Etsy, 
+                    sadly the person I got it from doesn't seem to be selling anymore :("
+                /></th>
             </tr>
             <tr>
+                <th><Tile
+                    title="Company Logo Project"
+                    imgPath="https://drive.google.com/file/d/1xYGJa2CYhOpoWex81EoY6ctRE0zFka4K/preview"
+                    link="https://drive.google.com/drive/u/1/folders/14lrcwUqs3PYp2awM7MikX_UWeGvG3YCe"
+                    desc="Real Logo, Imaginary Company"
+                /></th>
                 <th><Tile
                     title="Photo Restoration and Colorization Project"
                     imgPath="https://drive.google.com/file/d/1kTrmQDJcJ-ULataMkas4ixz6VbwAma4x/preview"
@@ -56,8 +59,7 @@ function ArtProjects() {
                     link="https://drive.google.com/drive/u/1/folders/1hvk6Sw3iUjUbi9Rnv84eTaR4VvycAciy"
                     desc="This is the image in the homepage. Probably one of my favorite projects, if it wasn't apparent enough. 
                     Hopefully in the future, this image becomes a reality."
-                />
-                </th>
+                /></th>
             </tr>
         </table>
     </div>
